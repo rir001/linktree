@@ -1,0 +1,20 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 40px;
+}
+.grid-item {
+    /* background-color: rgba(255, 255, 255, 0.8); 
+    border: 10px solid rgba(0, 0, 0, 0.8); */
+    padding: 80px;
+    font-size: 30px;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#rcorners1 {
+    border-radius: 25px;
+    padding: 20px;
+    /* width: 200px;
+    height: 150px;  */
+}

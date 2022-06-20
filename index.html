@@ -2,37 +2,16 @@
 <html>
 <head>
     <title>Link greed</title>
-    <style>
+    <link rel="stylesheet" href="static/css/main.css">
 
-        .grid-container {
-            display: grid;
-            grid-template-columns: auto auto auto;
-            padding: 40px;
-        }
-        .grid-item {
-            /* background-color: rgba(255, 255, 255, 0.8); 
-            border: 10px solid rgba(0, 0, 0, 0.8); */
-            padding: 80px;
-            font-size: 30px;
-            text-align: center;
-            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
 
-        #rcorners1 {
-            border-radius: 25px;
-            padding: 20px;
-            /* width: 200px;
-            height: 150px; */
-        }
-        
-            
+    <style> 
         html {
             min-height:100%;
-            background: linear-gradient(217deg, rgba(255, 83, 183, 0.8), rgba(255,0,0,0) 70.71%),
-                        linear-gradient(127deg, rgba(122, 78, 246, 0.8), rgba(0,255,0,0) 70.71%),
-                        linear-gradient(336deg, rgba(62, 245, 245, 0.8), rgba(0,0,255,0) 70.71%);
+            background: linear-gradient(217deg, rgb(252, 26, 218), rgba(255,0,0,0) 70.71%),
+                        linear-gradient(127deg, rgb(118, 73, 239), rgba(0,255,0,0) 70.71%),
+                        linear-gradient(336deg, rgb(14, 228, 228), rgba(0,0,255,0) 70.71%);
         }
-
     </style>
 </head>
 
@@ -47,9 +26,9 @@
 
     <div class="grid-container">
 
-        <a href="https://www.instagram.com/alonsodrv/" target="_blank">
+        <a href="{{ url_for('about') }}" target="_blank">
             <div id="rcorners1" class="grid-item">
-                <img src="instagram.png"
+                <img src="images/instagram.png"
                     alt="alonsodrv"
                     width="250"
                     height="250">
@@ -58,7 +37,7 @@
 
         <a href="https://open.spotify.com/user/alonsodrv" target="_blank">
             <div id="rcorners1" class="grid-item">
-                <img src="spotify.png"
+                <img src="images/spotify.png"
                     alt="alonsodrv"
                     width="250"
                     height="250">
@@ -67,7 +46,7 @@
         
         <a href="https://github.com/rir001" target="_blank">
             <div id="rcorners1" class="grid-item">
-                <img src="github.png"
+                <img src="images/github.png"
                     alt="rir001"
                     width="250"
                     height="250">
@@ -76,7 +55,7 @@
         
         <a href="https://github.com/rir001" target="_blank">
             <div id="rcorners1" class="grid-item">
-                <img src="linkedin.png"
+                <img src="images/linkedin.png"
                     alt="Alonso Rivera"
                     width="250"
                     height="250">
@@ -85,7 +64,7 @@
 
         <a href="https://github.com/rir001" target="_blank">
             <div id="rcorners1" class="grid-item">
-                <img src="twitter.png"
+                <img src="images/twitter.png"
                     alt="alonsodrv"
                     width="250"
                     height="250">
@@ -94,7 +73,7 @@
         
         <a href="https://github.com/rir001" target="_blank">
             <div id="rcorners1" class="grid-item">
-                <img src="tiktok.png"
+                <img src="images/tiktok.png"
                     alt="alonsodrv"
                     width="230"
                     height="250">
@@ -103,7 +82,7 @@
         
         <a href="https://github.com/rir001" target="_blank">
             <div id="rcorners1" class="grid-item">
-                <img src="lastfm.png"
+                <img src="images/lastfm.png"
                     alt="alonsodrv"
                     width="250"
                     height="250">
