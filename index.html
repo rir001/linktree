@@ -3,19 +3,35 @@
 <head>
     <title>Foodie UCe</title>
     <style>
+
         .grid-container {
             display: grid;
             grid-template-columns: auto auto auto;
-            /* background-color: #56f321; */
-            padding: 30px;
+            padding: 40px;
         }
         .grid-item {
-            background-color: rgba(255, 255, 255, 0.8);
-            border: 1px solid rgba(0, 0, 0, 0.8);
-            padding: 20px;
+            /* background-color: rgba(255, 255, 255, 0.8);
+            border: 10px solid rgba(0, 0, 0, 0.8); */
+            padding: 80px;
             font-size: 30px;
             text-align: center;
         }
+
+        #rcorners1 {
+            border-radius: 25px;
+            padding: 20px;
+            /* width: 200px;
+            height: 150px; */
+        }
+        
+            
+        html {
+            min-height:100%;
+            background: linear-gradient(217deg, rgba(255, 83, 183, 0.8), rgba(255,0,0,0) 70.71%),
+                        linear-gradient(127deg, rgba(122, 78, 246, 0.8), rgba(0,255,0,0) 70.71%),
+                        linear-gradient(336deg, rgba(62, 245, 245, 0.8), rgba(0,0,255,0) 70.71%);
+        }
+
     </style>
 </head>
 
@@ -44,19 +60,37 @@
             </li>
 
     </ul>
+
+
     <div class="grid-container">
-        <div class="grid-item">1</div>
-        <div class="grid-item">2</div>
-        <div class="grid-item">3</div>
-        <div class="grid-item">4</div>
-        <div class="grid-item">5</div>
-        <div class="grid-item">6</div>
-        <div class="grid-item">7</div>
-        <div class="grid-item">8</div>
-        <div class="grid-item">9</div>
-        <div class="grid-item">9</div>
-        <div class="grid-item">9</div>
-        <div class="grid-item">9</div>
+        <a href="https://www.instagram.com/alonsodrv/" target="_blank">
+            <div id="rcorners1" class="grid-item">
+                <img src="instagram.png"
+                    alt="alonsodrv"
+                    width="250"
+                    height="250">
+                </div>
+            </a>
+
+        <a href="https://open.spotify.com/user/alonsodrv" target="_blank">
+            <div id="rcorners1" class="grid-item">
+                <img src="spotify.png"
+                    alt="alonsodrv"
+                    width="250"
+                    height="250">
+                </div>
+            </a>
+        
+        <a href="https://open.spotify.com/user/alonsodrv" target="_blank">
+            <div id="rcorners1" class="grid-item">
+                <img src="tiktok.png"
+                    alt="alonsodrv"
+                    width="250"
+                    height="275">
+                </div>
+            </a>
+
+
       </div> 
 </body>
 </html>
